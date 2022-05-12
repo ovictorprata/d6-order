@@ -6,7 +6,7 @@ body {
   background-color: #e0e8ff;
   font-family: "Outfit", sans-serif;
   height: 100%; /*na falta de conteudo, tem que colocar isso*/
-  background-image: url(/images/pattern-background-desktop.svg);
+  background-image: url(./images/pattern-background-desktop.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
