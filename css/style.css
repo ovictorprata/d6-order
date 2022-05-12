@@ -120,5 +120,10 @@ img.top-container {
 - Desaturated blue: hsl(224, 23%, 55%)
 - Dark blue: hsl(223, 47%, 23%) */
 
-@media (min-width: 1500px) {
+@media (max-width: 375px) {
+  html,
+  body {
+    height: 100%; /*na falta de conteudo, tem que colocar isso*/
+    background-image: url(/images/pattern-background-mobile.svg);
+  }
 }
