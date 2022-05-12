@@ -20,31 +20,30 @@ body {
 }
 img.top-container {
   border-radius: 20px 20px 0px 0px;
+  width: 360px;
 }
 .flex-container {
   flex-direction: column;
   align-items: center;
   display: flex;
-  height: 550px;
-  width: 330px;
+  height: 530px;
+  width: 360px;
   background-color: white;
   border-radius: 20px;
   gap: 1rem;
   text-align: center;
+  padding-bottom: 30px;
   /*Os itens não crescem no eixo PRINCIPAL
   Só crescem no eixo TRANSVERSAL*/
 }
 
-.top-container {
-  width: 330px;
-}
 .child {
   border: 1px solid black;
 }
 
 .title {
   font-size: 25px;
-  color: #3829e0;
+  color: #24284a;
 }
 
 .btn-payment {
@@ -67,14 +66,14 @@ img.top-container {
 .description-title {
   font-size: 16px;
   color: hsl(224, 23%, 55%);
+  padding: 0px 35px 0px 35px;
 }
 
 .plan {
   background-color: hsl(225, 100%, 98%);
   width: 90%;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
 }
 
 /* Pale blue: hsl(225, 100%, 94%) /_light blue_/
