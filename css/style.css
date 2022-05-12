@@ -6,11 +6,11 @@ body {
   background-color: #e0e8ff;
   font-family: "Outfit", sans-serif;
   height: 100%; /*na falta de conteudo, tem que colocar isso*/
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-/* .background {
-  width: 200%;
-} */
 .flex-master {
   display: flex;
   align-items: center;
@@ -30,50 +30,85 @@ img.top-container {
   width: 360px;
   background-color: white;
   border-radius: 20px;
-  gap: 1rem;
   text-align: center;
   padding-bottom: 30px;
   /*Os itens não crescem no eixo PRINCIPAL
   Só crescem no eixo TRANSVERSAL*/
 }
+.title-description {
+  /*ORDER SUMMARY*/
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  margin: 0px 35px 20px 35px;
+}
 
-.child {
-  border: 1px solid black;
+/*ANUAL PLAN START STYLE*/
+
+.plan {
+  /*GRAY DIV*/
+  background-color: hsl(225, 100%, 98%);
+  width: 75%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.annual-plan-text {
+  padding-left: 20px;
+  margin-right: 65px;
+  line-height: 20px;
+  list-style-type: none;
+  text-align: left;
+}
+
+.music-icon {
+  height: 40px;
+}
+.bold-title {
+  /*Annual Plan*/
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.price {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+.small-font {
+  /*Change*/
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .title {
-  font-size: 25px;
+  margin-top: 35px;
+  font-size: 22px;
   color: #24284a;
+  font-weight: 700;
 }
+
+/*END ANNUAL PLAN STYLE*/
 
 .btn-payment {
   background-color: #3829e0;
   color: white;
+  box-shadow: 0px 3px 9px -2px #3829e0;
   padding: 1%;
-  width: 90%;
-  height: 30%;
+  width: 80%;
+  height: 12%;
   border: 0px solid;
   border-radius: 10px;
   font-weight: 700;
+  margin-top: 32px;
 }
 
 .cancel-order {
   text-decoration: none;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.description-title {
-  font-size: 16px;
+  font-size: 12px;
+  font-weight: 900;
   color: hsl(224, 23%, 55%);
-  padding: 0px 35px 0px 35px;
-}
-
-.plan {
-  background-color: hsl(225, 100%, 98%);
-  width: 90%;
-  display: flex;
-  align-items: center;
 }
 
 /* Pale blue: hsl(225, 100%, 94%) /_light blue_/
@@ -84,3 +119,6 @@ img.top-container {
 - Very pale blue: hsl(225, 100%, 98%)
 - Desaturated blue: hsl(224, 23%, 55%)
 - Dark blue: hsl(223, 47%, 23%) */
+
+@media (min-width: 1500px) {
+}

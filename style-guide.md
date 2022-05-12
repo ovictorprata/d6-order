@@ -12,7 +12,7 @@ The designs were created to the following widths:
 ### Primary
 
 - Pale blue: hsl(225, 100%, 94%) /_light blue_/
-- Bright blue: hsl(245, 75%, 52%)
+- Bright blue: hsl(245, 75%, 52%) ##COR DO BOTÃO
 
 ### Neutral
 
